@@ -1,0 +1,126 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Medigo Test</title>
+
+    <!-- Boostrap 4 -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+
+    <!-- Font Awesome -->
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.6.3/css/all.css"
+        integrity="sha384-UHRtZLI+pbxtHCWp1t77Bi1L4ZtiqrqD80Kn4Z8NTSRyMA2Fd33n5dQ8lWUE00s/" crossorigin="anonymous">
+
+    <!-- Custom -->
+    <link rel="stylesheet" href="css/style.css">
+
+</head>
+
+<body>
+    <section id="header" class="mb-3 pt-2 pb-2">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-2">
+                    <div class="user-icon">
+                        <i class="fas fa-user"></i>
+                    </div>
+                </div>
+                <div class="col-10 user-attr">
+                    <div class="doctor-name">
+                        <strong>dr. Eriza Hanif</strong>
+                    </div>
+                    <div class="hospital-name">
+                        <small>RS Pusat Pertamina</small>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="main-title">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-12">
+                    <strong>Konsultasi</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="content">
+        <div class="container-fluid">
+            <div class="white-space-wrapper">
+                <div class="mt-2">
+                    <div class="filter mb-3">
+                        <strong>Filter</strong>
+                    </div>
+
+                    <div class="main-filter">
+                        <div class="form-group col-12">
+                            <i class="fa fa-calendar"></i>
+                            <select name="calendar" id="calendar" class="form-control form-filter">
+                                <option value="#">Hari ini - 10 Jul 2019</option>
+                            </select>
+                        </div>
+                        <div class="form-group col-12">
+                            <i class="fa fa-plus-square"></i>
+                            <select name="poliklinik" id="poliklinik" class="form-control form-filter">
+                                <option value="#">Semua Poliklinik</option>
+                            </select>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="mt-2">
+                    <div class="consultation mb-3">
+                        <strong>Jumlah Konsultasi</strong>
+                    </div>
+
+                    <div class="consultation-box">
+                        <div class="title">
+                            <p>Hari ini - Semua Poliklinik</p>
+                        </div>
+
+                        <div class="amount">
+                            <strong>40</strong>
+                            <small>Konsultasi</small>
+                        </div>
+
+                        <div class="detail-consultation pull-right">
+                            <i class="fa fa-angle-right"></i>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="bottom-navigation">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-3 bottom-navigation-active">
+                    <i class="fa fa-home"></i>
+                    <strong>Dashboard</strong>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-clipboard"></i>
+                    <strong>Konsultasi</strong>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-calendar"></i>
+                    <strong>Jadwal</strong>
+                </div>
+                <div class="col-3">
+                    <i class="fa fa-user"></i>
+                    <strong>Profil</strong>
+                </div>
+            </div>
+        </div>
+    </section>
+</body>
+
+</html>
